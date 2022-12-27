@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <table >
+            <tr>
+                <th colspan="3">XYZ Student University Registration</th>
+            </tr>
+            <tr>
+                <td rowspan="4">Personal details</td>
+                <td>First name</td>
+                <td>
+                    <input type="text" maxlength="10" name="fname" required class="yellow-bg">
+                </td>
+            </tr>
+            <tr>
+                <td>Last name</td>
+                <td>
+                    <input type="text" maxlength="10" name="lname" required class="yellow-bg">
+                </td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td>
+                    <input type="text" name="dob" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="Male" checked>
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="Female">
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="Other">
+                    <label>Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">Academic details</td>
+                <td>Degree</td>
+                <td>
+                    <select name="degree">
+                        <option value="masters">Masters</option>
+                        <option value="bachelors">Bachelors</option>
+                        <option value="doctorate">Doctorate</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Specialization</td>
+                <td>
+                    <input type="text" name="specialization" placeholder="English literature" required maxlength="40">
+                </td>
+            </tr>
+            <tr>
+                <td>Mode of instruction</td>
+                <td>
+                    <input type="checkbox" value="classroom" checked>
+                    <label for="vehicle1">Classroom</label>
+                    <input type="checkbox" value="online">
+                    <label>Online</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Current GPA</td>
+                <td>
+                    <input type="number" name="gpa" required maxlength="5" step="0.1">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Contact details</td>
+                <td>Phone numer</td>
+                <td>
+                    <input type="text" name="number" required  class="yellow-bg">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="1">Address</td>
+                <td rowspan="1">
+                    <textarea name="address" rows="4" cols="40" required  class="yellow-bg"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3">I assure all the entered details are correct:
+                    <input type="checkbox" value="yes" checked >
+                    <label>Yes</label>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="3">
+                    <input type="submit" value="Submit">
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

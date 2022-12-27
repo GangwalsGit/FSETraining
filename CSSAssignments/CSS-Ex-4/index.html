@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dine booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="text-align: center;">Dine booking</h2>
+    <table>
+        <tr>
+            <td>Visitor name</td>
+            <td>
+                <input type="text" maxlength="40">
+            </td>
+        </tr>
+        <tr>
+            <td>Number of menbers</td>
+            <td>
+                <input type="text" maxlength="40">
+            </td>
+        </tr>
+        <tr>
+            <td>Contact number</td>
+            <td>
+                <input type="text" maxlength="40">
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="text" maxlength="40">
+            </td>
+        </tr>
+        <tr>
+            <td>Type of food</td>
+            <td>
+                <input type="checkbox" value="south" checked><label>South indian</label>
+                <input type="checkbox" value="north"><label>North indian</label>
+                <input type="checkbox" value="chinese"><label>Chines</label>
+                <input type="checkbox" value="western"><label>Western</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Room status</td>
+            <td>
+                <input type="radio" name="status" checked><lable>AC</lable>
+                <input type="radio" name="status"><lable>Non Ac</lable>
+            </td>
+        </tr>
+        <tr>
+            <td>Venue preference</td>
+            <td>
+                <select>
+                    <option>--SELECT--</option>
+                    <option value="city">In city</option>
+                    <option value="outside">Outside city</option>
+                    <option value="city">Outskirts</option>
+                    <option value="rural">Rural</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Book">
+            </td>
+            <td>
+                <input type="button" value="Reset">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

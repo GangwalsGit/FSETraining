@@ -1,0 +1,15 @@
+* {
+    font-size: 20px;
+}
+
+table {
+    width: 35%;
+    margin: auto;
+}
+ th {
+    width: 2rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

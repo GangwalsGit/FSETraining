@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <table >
+            <tr>
+                <th colspan="6">XYZ Onine Delivery</th>
+            </tr>
+            <tr>
+                <th colspan="6">Personal Details</th>
+            </tr>
+            <tr>
+                <td width="90" >First Name</td>
+                <td >
+                    <input type="text" maxlength="10" name="fname" required class="yellow-bg">
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>
+                    <input type="text" maxlength="10" name="phoneNo" required >
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3">Order Preferences</th>
+            </tr>
+            <tr>
+                <td>Size</td>
+                <td>
+                    <input type="radio" name="size" value="small" checked>
+                    <label>Small</label>
+                    <input type="radio" name="size" value="medium">
+                    <label>Medium</label>
+                    <input type="radio" name="size" value="large">
+                    <label>Large</label>
+                </td>                
+            </tr>
+            <tr>
+                <td>Base</td>
+                <td>
+                    <select id = "myList"  >   
+                        <option> Chiken stuffed Crust </option>  
+                        <option> Pan Pizza </option>  
+                        <option> Cheese Crust </option>  
+                     </select> 
+                </td>
+            </tr>
+            <tr>
+                <td>Toppings</td>
+                <td>
+                    <input type="checkbox" id="toppings" Value="Cheese">
+                    <label for="topping-Cheese">Cheese</label>
+                    <input type="checkbox" id="toppings" Value="Olives" checked>
+                    <label for="topping-Cheese">Olives</label>
+                    <input type="checkbox" id="toppings" Value="Tomatoes">
+                    <label for="topping-Cheese">Tomatoes</label>
+                    <input type="checkbox" id="toppings" Value="Capsicum" checked>
+                    <label for="topping-Cheese">Capsicum</label>
+                    <input type="checkbox" id="toppings" Value="Jalapenos" >
+                    <label for="topping-Cheese">Jalapenos</label>       
+                    <input type="checkbox" id="toppings" Value="Mushrooms" checked>
+                    <label for="topping-Cheese">Mushrooms</label>   
+                    <input type="checkbox" id="toppings" Value="Peperoni" checked>
+                    <label for="topping-Cheese">Peperoni</label>   
+                    <input type="checkbox" id="toppings" Value="Oniom" checked>
+                    <label for="topping-Cheese">Onion</label>                                                                           
+                </td>
+            </tr>
+            <td>Additional Details</td>
+            <td >
+                <textarea id="w3review" name="w3review" rows="3" cols="35">
+                    </textarea>
+            </td>
+            <tr>
+                <th colspan="3">
+                Confirm Details and Proceed to pay?
+                <input type="radio" name="confirm" value="yes" checked>
+                <label>Yes</label>
+                <input type="radio" name="confirm" value="no" >
+                <label>No</label>               
+            </th>
+            </tr>
+            <tr>
+                <th colspan="3">
+                    <input type="submit" value="Submit">
+                </th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

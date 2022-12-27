@@ -1,0 +1,113 @@
+.main {
+    background-color: rgb(100, 245, 226);
+    background-size: 80%;
+    width: 80%;
+    height: 100vh;
+    margin-left: 10rem;
+    position: relative;
+
+}
+p {
+    font-size: 17px;
+    margin-top: 6rem;
+    position: absolute;
+    margin-left: 3rem;
+}
+.underline{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: slategrey;
+}
+h3{
+margin-top: 2rem;
+margin-left: 3rem;
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.left-pane{
+    margin-top: 10rem;
+    background-color: #fff;
+    width: 60%;
+    height: 70vh;
+    color: indigo;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    position:relative;
+}
+
+
+.right-pane{
+    margin-top: 10rem;
+    background-color: blue;
+    width: 40%;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height: 70vh;
+    color: white;
+}
+
+.right-pane h2, .left-pane h2 {
+    margin-left: 3rem;
+}
+
+table  {
+    margin-top: 3rem;
+    padding: 2.5rem;
+    
+}
+tr td{
+    padding: .8rem;
+    font-size: 20px;
+}
+
+form {
+    margin: 0 3rem 3rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-elements-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.form-elements-container label {
+    margin-bottom: 1rem;
+}
+
+.form-elements-container input {
+    width: 90%;
+}
+
+.primary-btn {
+    background-color: blue;
+    color: white;
+    padding: .6rem 2rem;
+    border-radius: 24px;
+    border: none;
+}
+
+.input-elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
