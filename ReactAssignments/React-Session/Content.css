@@ -1,0 +1,36 @@
+.content{
+    background-color: aqua;
+    width:100%;
+    height:30rem;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.card{
+    width: 20rem;
+    height:30rem;
+}
+.card-1{
+    background-color: chartreuse; 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-2{
+    background-color: rgb(81, 51, 173); 
+}
+.card-3{
+    background-color: rgb(211, 108, 108); 
+}
+
+.card-small{
+    width: 100%;
+    height:40%;
+}
+.card-small-1{
+    background-color: darkkhaki;
+}
+.card-small-2{
+    background-color: rgb(27, 157, 105);
+}
