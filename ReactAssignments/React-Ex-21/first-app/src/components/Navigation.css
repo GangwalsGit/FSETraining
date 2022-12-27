@@ -1,0 +1,21 @@
+.navbar{
+    width:100%;
+    height:3rem;
+    background-color: black;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    font-family:cursive;
+
+}
+
+.image{
+width:3rem;
+height:3rem
+}
+
+.container{
+    background-color: grey;
+    height: 160vh;
+}

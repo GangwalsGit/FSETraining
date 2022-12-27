@@ -1,0 +1,44 @@
+.concert{
+    /* background-color: aqua; */
+    width: 15rem;
+    margin: 19px;
+    background-color: white;   
+}
+
+.image-props{
+    height: 40%;
+    width: 15rem;
+    background-color: white;
+}
+
+.content{
+    text-align: justify;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    height: 80px;
+    word-spacing: .2rem;
+    color: grey;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.btn{
+    background-color: rgb(65, 147, 206);
+    color: white;
+    font-weight: 500;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 5rem;
+    border-color: white;
+    box-shadow: none;
+    shape-outside: none;
+    
+}
+
+.tags{
+    font-size: medium;
+    color: grey;
+    text-align: start;
+    padding-left: 1.5rem;
+
+}
