@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1{
+    color:green;
+    text-transform:uppercase;
+    font-size: 15px;
+  }
+  .section2{
+    color:grey;
+    width: 50%;
+    text-align: center;
+  }
+  .section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: white;
+  }
+  .section4{
+    position: relative; 
+    margin-left: 1.5rem;  
+
+  }
+  .section4 span{
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 14rem; 
+    height: 3.8rem;
+    background-color:white;
+    text-align:top left ;
+    border-radius: 5%;
+    margin-bottom: 0px;
+  }
