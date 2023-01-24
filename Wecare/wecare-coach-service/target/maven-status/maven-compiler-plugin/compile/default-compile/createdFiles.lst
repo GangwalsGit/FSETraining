@@ -1,0 +1,8 @@
+com\capstone\wecare\coach\request\CreateCoachRequest.class
+com\capstone\wecare\coach\app\WecareCoachServiceApplication.class
+com\capstone\wecare\coach\entity\Coach.class
+com\capstone\wecare\coach\exception\CoachException.class
+com\capstone\wecare\coach\repository\CoachRepository.class
+com\capstone\wecare\coach\controller\CoachController.class
+com\capstone\wecare\coach\request\CreateLoginRequest.class
+com\capstone\wecare\coach\service\CoachService.class
